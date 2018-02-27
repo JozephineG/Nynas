@@ -1,0 +1,241 @@
+/*
+body {
+    background-color: #e8eaed;
+    font-family: Verdana, Aria, Helvetica, sans-serif;
+}
+
+.navigationsbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #404040;
+}
+
+.list {
+    float: left;
+}
+
+.Menu {
+    display: block;
+    color: #F6F6E8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.Menu-right{
+    float: right;
+}
+
+.list a:hover {
+    background-color: #00ACE9;
+}
+
+.active{
+    background-color: #00ACE9;
+}
+*/
+figcaption{
+    font-size: 9px;
+}
+/*
+.textbox {
+    margin-top: 0px;
+    font-size: 10px;
+}
+*/
+.mainheader {
+    background-image: url("../assets/images/layout/header-sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    //color: #242291;
+}
+/*
+.boldheader{
+    font-weight: bold;
+}
+
+.submainheader{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #242291;
+    font-size: 12px;
+}
+
+.sectionheader{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #6A9A1F;
+}
+
+.galleryheader{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #6A9A1F;
+}
+*/
+.gallery {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px 2px #8aa5d1;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+}
+/*
+.articleheader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #6A9A1F;
+}
+
+section {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+}
+*/
+
+.articles {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px 2px #8aa5d1;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 75%;
+} 
+/*
+.borderendofpage {
+    padding-left: 100%;
+    padding-top: 10px;
+    border-bottom: 1px solid #8aa5d1; 
+}
+
+.endofpage {
+    position: fixed, bottom: 0;
+    font-size: 65%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 40%;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 0-575,99px) {
+    .gallery {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px 2px #8aa5d1;
+    background-color: #ffffff;
+    font-weight: bold;
+    float: none;
+    display: block;
+    width: 80%;
+    }
+    .galleryheader {
+        padding-left: 40%; 
+    }
+}
+
+.beskrivningsMessage{
+    font-size: 10px; 
+    color: grey;
+}
+
+@media only screen and (max-width: 576-767,99px) {
+    .gallery {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px 2px #8aa5d1;
+    background-color: #ffffff;
+    font-weight: bold;
+    float: none;
+    display: block;
+    width: 80%;
+    }
+    .galleryheader {
+        padding-left: 40%; 
+    }
+}
+
+@media only screen and (max-width: 768-991,99px) {
+    .gallery {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px 2px #8aa5d1;
+    background-color: #ffffff;
+    font-weight: bold;
+    float: none;
+    display: block;
+    width: 80%;
+    }
+    .galleryheader {
+        padding-left: 40%; 
+    }
+}
+
+@media only screen and (max-width: 992-1199,99px) {
+    .gallery {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px 2px #8aa5d1;
+    background-color: #ffffff;
+    font-weight: bold;
+    float: none;
+    display: block;
+    width: 80%;
+    }
+    .galleryheader {
+        padding-left: 40%; 
+    }
+}
+
+@media only screen and (max-width: 1200px+) {
+    .gallery {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px 2px #8aa5d1;
+    background-color: #ffffff;
+    font-weight: bold;
+    float: none;
+    display: block;
+    width: 80%;
+    }
+    .galleryheader {
+        padding-left: 40%; 
+    }
+}
+@media only screen and (max-width: 0-575,99px) {
+    .gallery {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px 2px #8aa5d1;
+    background-color: #ffffff;
+    font-weight: bold;
+    float: none;
+    display: block;
+    width: 80%;
+    }
+    .galleryheader {
+        padding-left: 40%; 
+    }
+}
+*/
+
+
+
+
+
